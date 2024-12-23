@@ -9,7 +9,7 @@ import userRoutes from "./routes/user.route.js";
 import postRoutes from "./routes/post.route.js";
 import notificationRoutes from "./routes/notification.route.js";
 import bookmarkRoutes from "./routes/bookmarks.route.js";
-import automatePost from "./cronjobs.js";
+import automatePost from "./cronJobs.js";
 import connectMongoDB from "./db/connectMongoDB.js";
 
 
