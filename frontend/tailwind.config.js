@@ -22,4 +22,10 @@ export default {
 		base:true,
 		defaultTheme:"black",
 	},
+	safelist: [
+		{
+			pattern: /data-theme/,
+			variants: ['black', 'light'], // Include all possible themes
+		},
+	],
 };

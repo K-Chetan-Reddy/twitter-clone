@@ -8,6 +8,7 @@ import ProfilePage from "./pages/profile/ProfilePage";
 
 import Sidebar from "./components/common/Sidebar";
 import RightPanel from "./components/common/RightPanel";
+import { useEffect } from "react";
 
 import { Toaster } from "react-hot-toast";
 import { useQuery } from "@tanstack/react-query";
@@ -42,6 +43,13 @@ function App() {
 			</div>
 		);
 	}
+
+	document.documentElement.setAttribute("data-theme", "black");
+	
+	useEffect(() => {
+		document.documentElement.setAttribute("data-theme", "black");
+	  }, []);
+	  
 
 	return (
 		<div className='flex max-w-6xl mx-auto'>
