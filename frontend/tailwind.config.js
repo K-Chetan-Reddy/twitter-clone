@@ -23,9 +23,9 @@ export default {
 		defaultTheme:"black",
 	},
 	safelist: [
-		{
-			pattern: /data-theme/,
-			variants: ['black', 'light'], // Include all possible themes
-		},
-	],
+		'theme-black',
+		'theme-light',
+		'[data-theme="black"]',
+		'[data-theme="light"]'
+	  ]
 };
