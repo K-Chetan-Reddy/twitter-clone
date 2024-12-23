@@ -43,12 +43,6 @@ function App() {
 			</div>
 		);
 	}
-
-	document.documentElement.setAttribute("data-theme", "black");
-	
-	useEffect(() => {
-		document.documentElement.setAttribute("data-theme", "black");
-	  }, []);
 	  
 
 	return (
